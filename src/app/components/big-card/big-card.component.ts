@@ -14,6 +14,8 @@ export class BigCardComponent{
   cardTitle:string = "Administre seu tempo"
   @Input()
   cardDescription:string = "Sua vida se tornará produtiva"
+  @Input()
+  Id:string="0"
   constructor(){}
 
 }
